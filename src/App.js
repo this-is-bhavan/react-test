@@ -1,9 +1,17 @@
+import React from "react";
 import "./App.css";
+import BookmarkForm from "./components/BookmarkForm";
+import BookmarkList from "./components/BookmarkList";
+import GlobalProvider from "./context/GlobalProvider";
 
 function App() {
   return (
     <div className="App">
-      <h1>this site is under construction (updated 2)</h1>
+      <h1>Bookmark App</h1>
+      <GlobalProvider>
+        <BookmarkForm />
+        <BookmarkList />
+      </GlobalProvider>
     </div>
   );
 }
