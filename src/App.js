@@ -1,13 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>This is a test react app (updated)</h1>
-      </header>
+      <h1>this site is under construction</h1>
     </div>
   );
 }
